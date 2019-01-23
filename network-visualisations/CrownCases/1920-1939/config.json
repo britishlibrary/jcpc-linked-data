@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Sarah Middle"
+  },
+  "text": {
+    "more": "",
+    "intro": "Network visualisation showing appeals heard and judgments made by the Judicial Committee of the Privy Council (JCPC), for Crown cases, i.e. those where the Appellant or Respondent was the King or Queen, between 1 January 1920 and 31 December 1939.",
+    "title": "JCPC Appeals: Crown Cases, 1920-1939"
+  },
+  "legend": {
+    "edgeLabel": "Edges: connections between nodes",
+    "colorLabel": "Colours: Orange - parties (appellants/respondents); Purple - locations; Blue - appeals; Green - judgments; Grey - links to external resources, including digitised documents in BAILII, and records on Wikidata and VIAF",
+    "nodeLabel": "Nodes: appeals, judgments, locations, and parties involved"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

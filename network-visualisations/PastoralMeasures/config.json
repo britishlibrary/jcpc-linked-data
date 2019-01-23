@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Sarah Middle"
+  },
+  "text": {
+    "more": "",
+    "intro": "Network visualisation showing appeals heard and judgments made by the Judicial Committee of the Privy Council (JCPC), for Pastoral Measures.",
+    "title": "JCPC Appeals: Pastoral Measures"
+  },
+  "legend": {
+    "edgeLabel": "Edges: connections between nodes",
+    "colorLabel": "Colours: Purple - parties (appellants/respondents); Orange - locations; Green - appeals; Blue - judgments; Grey - links to external resources, including digitised documents in BAILII, and records on Wikidata and VIAF",
+    "nodeLabel": "Nodes: appeals, judgments, locations, and parties involved"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

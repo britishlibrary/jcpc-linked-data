@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Sarah Middle"
+  },
+  "text": {
+    "more": "",
+    "intro": "Network visualisation showing appeals heard and judgments made by the Judicial Committee of the Privy Council (JCPC), for cases where further information about the Appellant, the Respondent, or both, can be found via Wikidata or the Virtual International Authority File (VIAF).",
+    "title": "JCPC Appeals: Appellants/Respondents Linked to External Sources"
+  },
+  "legend": {
+    "edgeLabel": "Edges: connections between nodes",
+    "colorLabel": "Colours:\nPink - locations;\nBlue - parties (appellants/respondents);\nGreen - appeals;\nPurple - judgments;\nOrange - Wikidata links;\nGrey - VIAF links",
+    "nodeLabel": "Nodes: appeals, judgments, locations, and parties involved"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
